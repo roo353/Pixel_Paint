@@ -7,7 +7,21 @@ using UnityEngine.SceneManagement;
 public class BoxTouchBehavior : MonoBehaviour
 {
     public SpriteRenderer filled;
-    
+
+    private Transform numberChild;
+
+    void Start()
+    {
+        numberChild = transform.Find("Number");
+    }
+    private void Update()
+    {
+        if (ColorManager.numWrongRemaining < 1)
+        {
+            
+        }
+    }
+
     public void OnMouseDown()
     {
         filled.color = ColorManager.currentColor;
@@ -17,6 +31,11 @@ public class BoxTouchBehavior : MonoBehaviour
             ColorManager.numWrongRemaining -= 1;
             GetComponent<Collider>().enabled = false;
             Debug.Log(ColorManager.numWrongRemaining);
+            
+            if(numberChild != null)
+            {
+                numberChild.gameObject.SetActive(!numberChild.gameObject.activeSelf);
+            }
         }
     }
     

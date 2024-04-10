@@ -20,6 +20,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StartMenu.unity
     guid: 5ee5a1fa3f8afb448940cd8025c11885
+  - enabled: 1
+    path: Assets/Scenes/Drawing3.unity
+    guid: e1f6351ec67f3a84b85c1278c07fc0c8
+  - enabled: 1
+    path: Assets/Scenes/Drawing4.unity
+    guid: 81d311d3cb8583049b856a217193979c
+  - enabled: 1
+    path: Assets/Scenes/Drawing5.unity
+    guid: c7ed5923add5f8a47b95a4be8be0953b
+  - enabled: 1
+    path: Assets/Scenes/Drawing6.unity
+    guid: 999a9d4fcf8ded343aecb864b0f67fe4
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 53b89156ee28c0041b4a14bca07d3365, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 9e3139c1127b96f419d0a6a018eda675, type: 2}

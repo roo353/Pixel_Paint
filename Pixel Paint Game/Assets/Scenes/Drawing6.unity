@@ -432,8 +432,8 @@ GameObject:
   - component: {fileID: 50987947}
   - component: {fileID: 50987946}
   m_Layer: 0
-  m_Name: Color_Pink6
-  m_TagString: 2
+  m_Name: Color6
+  m_TagString: 6
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -626,7 +626,7 @@ GameObject:
   - component: {fileID: 78903938}
   - component: {fileID: 78903939}
   m_Layer: 0
-  m_Name: Color_Red1
+  m_Name: Color1
   m_TagString: 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2101,8 +2101,8 @@ GameObject:
   - component: {fileID: 271566004}
   - component: {fileID: 271566003}
   m_Layer: 0
-  m_Name: Color_Pink7 (1)
-  m_TagString: 2
+  m_Name: Color8
+  m_TagString: 8
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9041,8 +9041,8 @@ GameObject:
   - component: {fileID: 1116315172}
   - component: {fileID: 1116315171}
   m_Layer: 0
-  m_Name: Color_Pink7
-  m_TagString: 2
+  m_Name: Color7
+  m_TagString: 7
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9827,7 +9827,7 @@ GameObject:
   - component: {fileID: 1181772950}
   - component: {fileID: 1181772949}
   m_Layer: 0
-  m_Name: Color_Red4
+  m_Name: Color4
   m_TagString: 4
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13374,8 +13374,8 @@ GameObject:
   - component: {fileID: 1558671421}
   - component: {fileID: 1558671420}
   m_Layer: 0
-  m_Name: Color_Pink5
-  m_TagString: 2
+  m_Name: Color5
+  m_TagString: 5
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13495,11 +13495,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1166031148867249705, guid: 79584242abb4056499d85e5095723e41, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.08
+      value: 0.14
       objectReference: {fileID: 0}
     - target: {fileID: 1166031148867249705, guid: 79584242abb4056499d85e5095723e41, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.11
+      value: -0.08
       objectReference: {fileID: 0}
     - target: {fileID: 1948186314411642954, guid: 79584242abb4056499d85e5095723e41, type: 3}
       propertyPath: m_FlipX
@@ -13583,7 +13583,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5832124440617674764, guid: 79584242abb4056499d85e5095723e41, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.9449
+      value: 1.84
       objectReference: {fileID: 0}
     - target: {fileID: 5832124440617674764, guid: 79584242abb4056499d85e5095723e41, type: 3}
       propertyPath: m_LocalPosition.y
@@ -13607,7 +13607,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6211280454522510460, guid: 79584242abb4056499d85e5095723e41, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.53
+      value: -2.49
       objectReference: {fileID: 0}
     - target: {fileID: 6211280454522510460, guid: 79584242abb4056499d85e5095723e41, type: 3}
       propertyPath: m_LocalPosition.y
@@ -13643,11 +13643,11 @@ PrefabInstance:
       objectReference: {fileID: -1691251298, guid: d879b4e9f62385a40a1ae0eb1b1a192a, type: 3}
     - target: {fileID: 8054603707490190977, guid: 79584242abb4056499d85e5095723e41, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.13
+      value: -0.12
       objectReference: {fileID: 0}
     - target: {fileID: 8054603707490190977, guid: 79584242abb4056499d85e5095723e41, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.08
+      value: -0.14
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13895,7 +13895,7 @@ GameObject:
   - component: {fileID: 1612578381}
   - component: {fileID: 1612578380}
   m_Layer: 0
-  m_Name: Color_Red3
+  m_Name: Color3
   m_TagString: 3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14558,7 +14558,7 @@ GameObject:
   - component: {fileID: 1678100274}
   - component: {fileID: 1678100273}
   m_Layer: 0
-  m_Name: Color_Red2
+  m_Name: Color2
   m_TagString: 2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16866,7 +16866,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.3137255, g: 0.3137255, b: 0.3137255, a: 0}
+  m_BackGroundColor: {r: 0.52327806, g: 0.46237093, b: 0.6415094, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
