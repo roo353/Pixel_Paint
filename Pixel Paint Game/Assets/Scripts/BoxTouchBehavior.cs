@@ -12,13 +12,43 @@ public class BoxTouchBehavior : MonoBehaviour
 
     void Start()
     {
+        ColorManager.numWrongRemaining = PixelManager.pixelTotalCount;
+        
         numberChild = transform.Find("Number");
     }
     private void Update()
     {
         if (ColorManager.numWrongRemaining < 1)
         {
+            if (Application.loadedLevelName == "Drawing1")
+            {
+                LevelStatus.D1Status = "yes";
+            }
             
+            if (Application.loadedLevelName == "Drawing2")
+            {
+                LevelStatus.D1Status = "yes";
+            }
+            
+            if (Application.loadedLevelName == "Drawing3")
+            {
+                LevelStatus.D1Status = "yes";
+            }
+            
+            if (Application.loadedLevelName == "Drawing4")
+            {
+                LevelStatus.D1Status = "yes";
+            }
+            
+            if (Application.loadedLevelName == "Drawing5")
+            {
+                LevelStatus.D1Status = "yes";
+            }
+            
+            if (Application.loadedLevelName == "Drawing6")
+            {
+                LevelStatus.D1Status = "yes";
+            }
         }
     }
 

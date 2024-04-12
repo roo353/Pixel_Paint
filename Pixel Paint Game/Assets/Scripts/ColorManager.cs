@@ -6,5 +6,5 @@ public class ColorManager : MonoBehaviour
 {
     public static Color currentColor;
     public static string selectedTag;
-    public static int numWrongRemaining = 3;
+    public static int numWrongRemaining;
 }
