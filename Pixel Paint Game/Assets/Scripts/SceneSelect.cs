@@ -44,5 +44,6 @@ public class SceneSelect : MonoBehaviour
     private void OnMouseDown()
     {
         SceneManager.LoadScene(gameObject.tag);
+        BoxTouchBehavior.PixelCount();
     }
 }

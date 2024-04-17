@@ -12,9 +12,8 @@ public class BoxTouchBehavior : MonoBehaviour
 
     void Start()
     {
-        ColorManager.numWrongRemaining = PixelManager.pixelTotalCount;
-        
         numberChild = transform.Find("Number");
+        PixelCount();
     }
     private void Update()
     {
@@ -27,29 +26,34 @@ public class BoxTouchBehavior : MonoBehaviour
             
             if (Application.loadedLevelName == "Drawing2")
             {
-                LevelStatus.D1Status = "yes";
+                LevelStatus.D2Status = "yes";
             }
             
             if (Application.loadedLevelName == "Drawing3")
             {
-                LevelStatus.D1Status = "yes";
+                LevelStatus.D3Status = "yes";
             }
             
             if (Application.loadedLevelName == "Drawing4")
             {
-                LevelStatus.D1Status = "yes";
+                LevelStatus.D4Status = "yes";
             }
             
             if (Application.loadedLevelName == "Drawing5")
             {
-                LevelStatus.D1Status = "yes";
+                LevelStatus.D5Status = "yes";
             }
             
             if (Application.loadedLevelName == "Drawing6")
             {
-                LevelStatus.D1Status = "yes";
+                LevelStatus.D6Status = "yes";
             }
         }
+    }
+
+    public static void PixelCount()
+    {
+        ColorManager.numWrongRemaining = PixelManager.pixelTotalCount;
     }
 
     public void OnMouseDown()
