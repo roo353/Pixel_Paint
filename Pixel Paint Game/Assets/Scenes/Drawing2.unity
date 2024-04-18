@@ -1194,6 +1194,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: -27.9
       objectReference: {fileID: 0}
+    - target: {fileID: 1140750733739582617, guid: 8617f7863fa3374459a7e3a6969e7f5f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 314
+      objectReference: {fileID: 0}
     - target: {fileID: 1730801353217293287, guid: 8617f7863fa3374459a7e3a6969e7f5f, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -6205,7 +6209,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d6c70f368d25284594db526d0856419, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  checkObj: {fileID: 0}
+  checkObj: {fileID: 915476106}
+  timeDelayed: 0
 --- !u!65 &915476105
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6227,6 +6232,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.3906249, y: 1.2656249, z: 0.19999999}
   m_Center: {x: 0, y: -0.00000023841858, z: 0}
+--- !u!4 &915476106 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2538754465693284817, guid: 79584242abb4056499d85e5095723e41, type: 3}
+  m_PrefabInstance: {fileID: 915476102}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &925116235 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 418258081828433907, guid: 505483c1ad1186049865f823cda4a3e5, type: 3}

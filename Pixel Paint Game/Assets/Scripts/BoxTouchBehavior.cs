@@ -19,32 +19,29 @@ public class BoxTouchBehavior : MonoBehaviour
     {
         if (ColorManager.numWrongRemaining < 1)
         {
-            if (Application.loadedLevelName == "Drawing1")
+            string currentSceneName = SceneManager.GetActiveScene().name;
+
+            if (currentSceneName == "Drawing1")
             {
                 LevelStatus.D1Status = "yes";
             }
-            
-            if (Application.loadedLevelName == "Drawing2")
+            else if (currentSceneName == "Drawing2")
             {
                 LevelStatus.D2Status = "yes";
             }
-            
-            if (Application.loadedLevelName == "Drawing3")
+            else if (currentSceneName == "Drawing3")
             {
                 LevelStatus.D3Status = "yes";
             }
-            
-            if (Application.loadedLevelName == "Drawing4")
+            else if (currentSceneName == "Drawing4")
             {
                 LevelStatus.D4Status = "yes";
             }
-            
-            if (Application.loadedLevelName == "Drawing5")
+            else if (currentSceneName == "Drawing5")
             {
                 LevelStatus.D5Status = "yes";
             }
-            
-            if (Application.loadedLevelName == "Drawing6")
+            else if (currentSceneName == "Drawing6")
             {
                 LevelStatus.D6Status = "yes";
             }
@@ -64,6 +61,7 @@ public class BoxTouchBehavior : MonoBehaviour
         {
             ColorManager.numWrongRemaining -= 1;
             GetComponent<Collider>().enabled = false;
+            SceneManager.LoadScene("ImageMenu");
             Debug.Log(ColorManager.numWrongRemaining);
             
             if(numberChild != null)

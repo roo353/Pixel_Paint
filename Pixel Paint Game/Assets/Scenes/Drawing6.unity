@@ -10355,7 +10355,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d6c70f368d25284594db526d0856419, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  checkObj: {fileID: 0}
+  checkObj: {fileID: 1565364012}
+  timeDelayed: 0
 --- !u!1001 &1253146433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13674,6 +13675,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1240171169}
   m_SourcePrefab: {fileID: 100100000, guid: 79584242abb4056499d85e5095723e41, type: 3}
+--- !u!4 &1565364012 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2538754465693284817, guid: 79584242abb4056499d85e5095723e41, type: 3}
+  m_PrefabInstance: {fileID: 1565364011}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1569452307
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17536,6 +17542,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1140750733739582617, guid: 8617f7863fa3374459a7e3a6969e7f5f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 316
+      objectReference: {fileID: 0}
     - target: {fileID: 1730801353217293287, guid: 8617f7863fa3374459a7e3a6969e7f5f, type: 3}
       propertyPath: m_Pivot.x
       value: 0

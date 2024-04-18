@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class SceneSelect : MonoBehaviour
 {
     public Transform checkObj;
+    public float timeDelayed;
 
     private void Start()
     {
@@ -43,7 +44,15 @@ public class SceneSelect : MonoBehaviour
 
     private void OnMouseDown()
     {
+        StartCoroutine(LoadSceneAfterDelay());
+    }
+
+    IEnumerator LoadSceneAfterDelay()
+    {
+        yield return new WaitForSeconds(timeDelayed);
+        
         SceneManager.LoadScene(gameObject.tag);
+        
         BoxTouchBehavior.PixelCount();
     }
 }
