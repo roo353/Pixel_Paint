@@ -7,7 +7,7 @@ using UnityEngine;
 public class AnimTrigger : MonoBehaviour
 {
     [SerializeField] private Animator animController;
-    [SerializeField] private string animName = "ButtonPress";
+    [SerializeField] private string animName;
 
     void Update()
     {

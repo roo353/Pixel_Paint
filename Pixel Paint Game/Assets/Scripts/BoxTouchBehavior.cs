@@ -9,9 +9,14 @@ public class BoxTouchBehavior : MonoBehaviour
     public SpriteRenderer filled;
 
     private Transform numberChild;
+    
+    public AudioSource audioSource;
 
     void Start()
     {
+        if (audioSource == null)
+            audioSource = GetComponent<AudioSource>();
+        
         numberChild = transform.Find("Number");
         PixelCount();
     }
@@ -61,8 +66,12 @@ public class BoxTouchBehavior : MonoBehaviour
         {
             ColorManager.numWrongRemaining -= 1;
             GetComponent<Collider>().enabled = false;
-            SceneManager.LoadScene("ImageMenu");
             Debug.Log(ColorManager.numWrongRemaining);
+            
+            if (audioSource != null && !audioSource.isPlaying)
+            {
+                audioSource.Play();
+            }
             
             if(numberChild != null)
             {
