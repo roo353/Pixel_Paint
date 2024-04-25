@@ -27,4 +27,6 @@ public class PixelManager : MonoBehaviour
             Debug.LogWarning("Pixels GameObject not found!");
         }
     }
+    
+   
 }

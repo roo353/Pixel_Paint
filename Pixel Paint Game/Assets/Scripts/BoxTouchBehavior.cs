@@ -88,4 +88,17 @@ public class BoxTouchBehavior : MonoBehaviour
             SetTargetInvisible(aaa);
         }
     }
+    private static void SavePixelCount()
+    {
+        PlayerPrefs.SetInt("PixelCount", ColorManager.numWrongRemaining);
+        PlayerPrefs.Save();
+    }
+
+    private void LoadPixelCount()
+    {
+        if (PlayerPrefs.HasKey("PixelCount"))
+        {
+            ColorManager.numWrongRemaining = PlayerPrefs.GetInt("PixelCount");
+        }
+    }
 }
